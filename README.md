@@ -14,4 +14,4 @@ Zaprojektowanie interfejsu, stworzenie bazy danych(klienci,punkty…),zaprogramo
 
 DIAGRAM:
 
-//DIAGRAM W PNG
+![image](https://github.com/user-attachments/assets/de90fbd5-bdf9-435e-b5cb-6439abb772de)
