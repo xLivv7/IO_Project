@@ -1,0 +1,3 @@
+Database used: Supabase.com
+
+Project name: IO_FoodApp_2024
