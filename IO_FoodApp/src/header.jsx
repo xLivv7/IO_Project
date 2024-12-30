@@ -3,8 +3,10 @@ import './header.css';
 function Header() {
     return (
         <header className="header">
+        <div className='Logo'>
             <img src='./Logo_Marki.jpg' alt='logo'></img>
-            <p>Domowe Jad³o</p>
+                <p>Domowe Jedzonko</p>
+        </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
