@@ -6,14 +6,14 @@ function Header() {
         <div className='Logo'>
             <img src='./Logo_Marki.jpg' alt='logo'></img>
                 <p>Domowe Jedzonko</p>
-        </div>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>
+                </nav>
         </header>
     );
 }

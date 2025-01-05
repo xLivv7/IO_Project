@@ -1,7 +1,7 @@
 .header {
     background-color: #282c34;
     color: white;
-    padding: 20px;
+    
     margin:0;
     text-align: center;
     width: 100%;
@@ -9,10 +9,14 @@
     justify-content: space-between;
 }
 
-    .header ul {
-        list-style: none;
-        padding: 0;
-    }
+nav{
+    padding: 2%;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+}
 
     .header li {
         display: inline;
@@ -35,7 +39,7 @@ img {
     margin: 1em;
 }
 
-p {
+.Logo {
     font-size: 30px;
     font-family: 'Playfair Display', serif;
     display:flex;
