@@ -1,8 +1,7 @@
 .header {
-    background-color: #282c34;
+    background-color: #7A5441;
     color: white;
-    
-    margin:0;
+    margin: 0;
     text-align: center;
     width: 100%;
     display: flex;
@@ -21,7 +20,6 @@ nav{
     .header li {
         display: inline;
         margin: 0 10px;
-        font-family: 'Roboto', serif;
     }
 
     .header a {
@@ -34,14 +32,15 @@ nav{
         }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 1em;
+    border: 1px solid #7A5441;
+    border-radius: 5px;
 }
 
 .Logo {
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
     display:flex;
     flex-wrap:nowrap;
 }

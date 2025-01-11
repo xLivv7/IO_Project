@@ -1,11 +1,12 @@
 import './header.css';
+import logo from '../Logo_Marki.jpg';
 
 function Header() {
     return (
         <header className="header">
         <div className='Logo'>
-            <img src='./Logo_Marki.jpg' alt='logo'></img>
-                <p>Domowe Jedzonko</p>
+            <img src={logo} alt='logo'></img>
+                <p>BAR BABUNI</p>
             </div>
             <nav>
                 <ul>
