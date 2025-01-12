@@ -3,10 +3,14 @@
     min-width:320px;
     max-width:1920px;
     margin:0;
+    display:flex;
+    flex-direction:column;
 }
 
-.dbInfo{
-    text-align:center;
-    margin:0;
-    padding:1.5em;
+main{
+    width:80%;
+    margin: 0 auto;
+    flex:1;
 }
+
+/* tutaj siê raczej nie bawiæ bo jest dobrze XD */

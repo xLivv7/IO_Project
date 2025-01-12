@@ -9,9 +9,13 @@ function Footer() {
         <>
             <footer className="footer">
                 <div className="contact">
-                    <a href={location_link}><img src={location} alt="lokalizaca" className="footer_img"/><span>Miasto, ulica nr</span> </a>
+                    <a href={location_link} target="_blank"><img src={location} alt="lokalizaca" className="footer_img"/><span>Miasto, ulica nr</span> </a>
                     <br />
                     <a href="mailto:BarBabuni@gmail.com"><img src={mail} alt="mail" className="footer_img" /> <span>BarBabuni@gmail.com</span> </a>
+                    <a href="#"><span>+48 100 100 102</span></a>
+                </div>
+                <div className="rights">
+                    <p>&copy; BarBabuni.pl All Rights Reserved</p>
                 </div>
             </footer>
         </>

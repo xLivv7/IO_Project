@@ -1,5 +1,6 @@
 import './header.css';
 import logo from '../Logo_Marki.jpg';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -9,12 +10,13 @@ function Header() {
                 <p>BAR BABUNI</p>
             </div>
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                </nav>
+                <Link to="/" className='nav-link'>G³ówna</Link>
+                <Link to="/about" className='nav-link'>O nas</Link>
+                <Link to="/menu" className='nav-link'>Menu</Link>
+                <Link to="/galery" className='nav-link'>Galeria</Link>
+                <Link to="/contact" className='nav-link'>Kontaktt</Link>
+
+            </nav>
         </header>
     );
 }

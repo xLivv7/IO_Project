@@ -1,44 +1,30 @@
-import { useState, useEffect } from 'react'
-import './App.css'
-import supabase from './supabaseClient'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './komponenty/header.jsx';
+import Footer from './komponenty/footer.jsx';
+import Home from './strony/Home.jsx';
+import About from './strony/About.jsx';
+import Menu from './strony/Menu.jsx';
+import Galery from './strony/Galery.jsx';
+import Contact from './strony/Contact.jsx';
 
-
-
-function App() {
-    const [table, setTable] = useState([])
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            setLoading(true); // W³¹cz ³adowanie
-            const { data, error } = await supabase.from("Foods").select();
-            if (error) {
-                console.error("Error fetching Foods table:", error);
-            } else {
-                setTable(data);
-            }
-            setLoading(false); // Wy³¹cz ³adowanie
-        };
-
-        fetchData();
-    }, []);
-
-
+const App = () => {
     return (
-        <>
-            <div className='dbInfo'>
-                {loading ? (
-                    <p>Loading data...</p>
-                ) : (
-                    <ul>
-                        {table.map((food) => (
-                            <li key={food.FoodName}>{food.FoodName}</li>
-                        ))}
-                    </ul>
-                )}
+        <Router>
+            <div>
+                <Header />
+                <main>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/menu" element={<Menu />} />
+                        <Route path="/galery" element={<Galery />} />
+                        <Route path="/contact" element={<Contact />} />
+                    </Routes>
+                </main>
+                <Footer />
             </div>
-        </>
-    )
-}
+        </Router>
+    );
+};
 
-export default App
+export default App;
