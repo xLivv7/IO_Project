@@ -14,7 +14,7 @@ function Header() {
                 <Link to="/about" className='nav-link'>O nas</Link>
                 <Link to="/menu" className='nav-link'>Menu</Link>
                 <Link to="/galery" className='nav-link'>Galeria</Link>
-                <Link to="/contact" className='nav-link'>Kontaktt</Link>
+                <Link to="/contact" className='nav-link'>Kontakt</Link>
 
             </nav>
         </header>
