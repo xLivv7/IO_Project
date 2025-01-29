@@ -1,0 +1,27 @@
+footer {
+    background-color: #7A5441;
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.footer_img{
+    width:20px;
+    height:20px;
+}
+
+.contact{
+    display:flex;
+    flex-wrap:wrap;
+    align-self:center;
+}
+
+span{
+    margin:0
+}
+
+.rights{
+    width:100%;
+}

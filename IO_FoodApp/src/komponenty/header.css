@@ -1,0 +1,42 @@
+header {
+    background-color: #7A5441;
+    color: white;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    padding: 2%;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin: 1em;
+    border: 1px solid #7A5441;
+    border-radius: 5px;
+}
+
+.Logo {
+    font-size: 30px;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.nav-link {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: brown; /*    zmieniæ!!!!!    */
+    text-decoration: underline;
+}
